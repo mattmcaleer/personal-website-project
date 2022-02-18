@@ -4,13 +4,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: auto;
+  font-size: 20px;
 }
 
 header h1 {
   -webkit-text-stroke: green 4px;
   color: transparent;
   font-weight: 900;
-  margin-top: 70px;
+  margin-top: 85px;
   font-size: 60px;
   margin-left margin-right: auto;
 }
@@ -22,19 +23,21 @@ header h1 {
   overflow: hidden;
   padding-top: 2%;
   padding-bottom: 2%;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   margin-bottom: 0;
+
 }
 
-#contact {
+#links {
   background: white;
   margin-left margin-right: auto;
-  width: 100%
+  width: 100%;
+  padding-bottom: 2%;
 }
 
 footer a {
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 a {
@@ -43,13 +46,17 @@ a {
   color: #4a4a4a;
 }
 
+a:hover {
+  color: lightgrey;
+}
+
 nav {
   text-align: center;
 }
 
 nav a {
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 section#about {
@@ -65,4 +72,8 @@ section a {
 table {
   margin-left: auto;
   margin-right: auto;
+}
+
+td, th {
+  padding: 12px;
 }
