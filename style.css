@@ -6,7 +6,6 @@ body {
   padding: auto;
 }
 
-
 header h1 {
   -webkit-text-stroke: green 4px;
   color: transparent;
@@ -27,6 +26,23 @@ header h1 {
   margin-bottom: 0;
 }
 
+#contact {
+  background: white;
+  margin-left margin-right: auto;
+  width: 100%
+}
+
+footer a {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
 nav {
   text-align: center;
 }
@@ -36,11 +52,10 @@ nav a {
   padding-right: 10%;
 }
 
-section.about {
+section#about {
   margin-top: 50px;
   padding-bottom: 50%; /*change bottom padding once content added*/
 }
-
 
 section a {
   padding-left: 10%;
