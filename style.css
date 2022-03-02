@@ -52,10 +52,6 @@ header h1 {
   margin-left: 75%;
 }
 
-h2 {
-  margin-bottom: 36px;
-}
-
 footer {
   background: white;
   width: 100%;
@@ -138,13 +134,14 @@ h2 {
   position: relative;
   top: -20px;
   line-height: 50%;
+  margin-bottom: 36px;
 }
 
 section#getInTouch a {
   padding: 1.5%;
 }
 
-section#form h2{
+section#form h2 {
   margin-top: 5%;
   padding-top: 0px;
 }
